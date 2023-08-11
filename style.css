@@ -1,0 +1,204 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:var(--white);
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 10%;
+    margin-bottom: 75px;
+    background-color: rgba(255, 255, 128, .5);
+}
+
+.header-nav {
+    display: flex;
+    column-gap: 91px;
+    margin-top: 10px;
+}
+
+.nav-item a {
+    font-family: var(--ff-i);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+/* Seção - Menu */
+
+.section-menu {
+    padding: 60px 0;
+    text-align: center;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    padding: 60px 0;
+    text-align: center;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.menu-desc {
+    padding: 60px 0;
+    text-align: center;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+
+.menu-img {
+    width: 19rem;
+}
+
+/* Seção - Mais Populares */
+
+.popular-title {
+    padding: 60px 0;
+    text-align: center;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+
+}
+
+.popular-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 130px;
+}
+
+.popular-card {
+    width: 280px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-200);
+    border-radius: 32px;
+
+    position: relative;
+}
+
+.popular-card-img {
+    width: 70%;
+    position: absolute;
+    top: -80px;
+}
+
+.popular-card-title {
+    font-family: var(--ff-m);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--black);
+
+    margin-top: 100px;
+    margin-bottom: 1rem;
+}
+
+.popular-card-desc {
+    font-family: var(--ff-i);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+
+    color: var(--gray);
+    line-height: 160%;
+
+    margin-bottom: 2rem;
+}
+
+.popular-card-price {
+    font-family: var(--ff-m);
+    font-weight: 500;
+    font-size: 1.5rem;
+
+    color: var(--black);
+}
+
+/* Seção - Localização */
+
+.section-location {
+    padding: 60px 0;
+    text-align: center;  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    padding: 25px 10%;
+    margin-bottom: 35px;  
+    column-gap: 51px;
+    background-color: rgba(255, 255, 128, .5);
+}
+
+.footer-title {
+    font-family: var(--ff-m);
+    font-weight: 700;
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.nav-cards {
+    display: flex;
+    column-gap: 162px;
+    flex-wrap: wrap;
+}
+
+.nav-title {
+    font-family: var(--ff-m);
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--black);
+
+    margin-bottom: 24px;
+}
+
+.nav-item {
+    font-family: var(--ff-i);
+    font-weight: 400;
+    color: var(--gray);
+
+
+    margin-bottom: 12px;
+}

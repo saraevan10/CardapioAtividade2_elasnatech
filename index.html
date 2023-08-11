@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Rosa</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="menu-section">
+            <div class="menu-toggle" onclick="openMenu()">
+                
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <ul class="header-nav">
+                <li class="nav-item"><a href="#" onclick="linkClick()">Início</a></li>
+                <li class="nav-item"><a href="#menu" onclick="linkClick()">Cardápio</a></li>
+                <li class="nav-item"><a href="#about" onclick="linkClick()">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="section-menu" id="menu">
+        <div class="menu-text">
+            <img src="./images/logo-pizza.jpg" alt="" class="menu-img">
+            <h1 class="menu-title">Pizzas</h1>
+            <p class="popular-card-price">É uma preparação culinária que consiste em um disco de massa fermentada de farinha de trigo, coberto com molho de tomate e os ingredientes variados que normalmente incluem algum tipo de queijo, carnes preparadas ou defumadas e ervas, normalmente orégano ou manjericão, tudo assado em forno.</p>
+        </div>
+    </section>
+
+    <section class="section-popular">
+        <h1 class="popular-title">Mais populares</h1>
+
+        <div class="popular-cards">
+            <div class="popular-card">
+                <img src="./images/pizza-calabresa.jpg" alt="Pizza Calabresa" class="popular-card-img">
+                <h3 class="popular-card-title">Pizza Calabresa</h3>
+                <p class="popular-card-desc">Receita de Pizza de Calabresa feita com farinha de trigo, fermento em pó, linguiça calabresa, queijo e orégano.</p>
+                <span class="popular-card-price">R$ 39,90</span>
+            </div>
+
+            <div class="popular-card">
+                <img src="./images/pizza-fit.jpg" alt="Pizza Fit" class="popular-card-img">
+                <h3 class="popular-card-title">Pizza Fit</h3>
+                <p class="popular-card-desc">Receita de Pizza Fit feita com presunto parma, cebola, tomate seco, pimentão e salsa picada.</p>
+                <span class="popular-card-price">R$ 45</span>
+            </div>
+
+            <div class="popular-card">
+                <img src="./images/Pizza-doce.jpg" alt="Pizza Doce" class="popular-card-img">
+                <h3 class="popular-card-title">Pizza Doce</h3>
+                <p class="popular-card-desc">Receita de Pizza feita com chocolate, biscoito oreo, morango e chocolate kitkat.</p>
+                <span class="popular-card-price">R$ 45</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-location">
+        <h2 class="popular-title">Localização</h2>
+        <h3 class="popular-card-price">Av. Sete de Setembro, 1000</h3>
+        <p class="popular-card-price">Porto Velho - RO</p>
+    </section>
+
+    <footer class="footer">
+        <h1 class="footer-title"><span style="color: #DA2535;">Pizzaria Rosa</span></h1>
+
+        <nav class="nav-cards">
+            <ul class="nav-card">
+                <h2 class="nav-title" id="about">
+                    Contato
+                </h2>
+                <li class="nav-item">+55 69 9999-9999</li>
+                <li class="nav-item">email@gmail.com</li>
+            </ul>
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Sobre nós
+                </h2>
+                <li class="nav-item">Menu</li>
+                <li class="nav-item">Valores</li>
+                <li class="nav-item">Valores</li>
+            </ul>           
+
+            <ul class="nav-card">
+                <h2 class="nav-title">
+                    Serviços
+                </h2>
+                <li class="nav-item">Entrega</li>
+                <li class="nav-item">Retirada</li>
+            </ul>    
+        </nav>
+    </footer>
+</body>
+</html> 
